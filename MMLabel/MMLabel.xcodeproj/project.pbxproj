@@ -13,6 +13,7 @@
 		CFB9E2641C0200C400922F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB9E2621C0200C400922F39 /* Main.storyboard */; };
 		CFB9E2661C0200C400922F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB9E2651C0200C400922F39 /* Assets.xcassets */; };
 		CFB9E2691C0200C400922F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB9E2671C0200C400922F39 /* LaunchScreen.storyboard */; };
+		CFB9E2731C02022F00922F39 /* MMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB9E2721C02022F00922F39 /* MMLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CFB9E2651C0200C400922F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFB9E2681C0200C400922F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFB9E26A1C0200C400922F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB9E2711C02022F00922F39 /* MMLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLabel.h; sourceTree = "<group>"; };
+		CFB9E2721C02022F00922F39 /* MMLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		CFB9E2581C0200C400922F39 /* MMLabel */ = {
 			isa = PBXGroup;
 			children = (
+				CFB9E2701C0201BF00922F39 /* classes */,
 				CFB9E25C1C0200C400922F39 /* AppDelegate.h */,
 				CFB9E25D1C0200C400922F39 /* AppDelegate.m */,
 				CFB9E25F1C0200C400922F39 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				CFB9E25A1C0200C400922F39 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFB9E2701C0201BF00922F39 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				CFB9E2711C02022F00922F39 /* MMLabel.h */,
+				CFB9E2721C02022F00922F39 /* MMLabel.m */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				CFB9E2611C0200C400922F39 /* ViewController.m in Sources */,
 				CFB9E25E1C0200C400922F39 /* AppDelegate.m in Sources */,
+				CFB9E2731C02022F00922F39 /* MMLabel.m in Sources */,
 				CFB9E25B1C0200C400922F39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
